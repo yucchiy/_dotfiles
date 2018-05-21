@@ -1,0 +1,13 @@
+[user]
+    name = Yuichiro MUKAI
+    email = y.iky917@gmail.com
+
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    ui = true
+
+[core]
+    excludesfile = /Users/yucchiy/.gitignore_global
+    editor = vim

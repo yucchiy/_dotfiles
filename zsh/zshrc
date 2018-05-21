@@ -1,0 +1,23 @@
+export ZSH=$HOME/.dotfiles/vendor/oh-my-zsh
+export ZSH_THEME="simple"
+
+export TERM="xterm-256color"
+
+export LANG=ja_JP.UTF-8
+export LESSCHARSET=UTF-8
+
+export PATH=/usr/local/bin:$HOME/.composer/vendor/bin/:$PATH
+export LD_LIBRARY_PATH=/usr/local/lib
+
+plugins=(brew git git-extras vagrant github docker)
+source $ZSH/oh-my-zsh.sh
+
+# for golang
+export GOPATH=$HOME/.go
+export PATH=$PATH:$GOPATH/bin
+
+# for rust
+source $HOME/.cargo/env
+
+# for nodebrew
+export PATH=$PATH:$HOME/.nodebrew/current/bin 
