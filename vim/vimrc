@@ -60,6 +60,7 @@ set runtimepath+=~/.vim/bundle/neobundle.vim/
 call neobundle#begin(expand('~/.vim/bundle/'))
 
 NeoBundleFetch 'Shougo/neobundle.vim'
+NeoBundle 'Shougo/neosnippet-snippets'
 NeoBundle 'Shougo/vimproc.vim', {
             \ 'build' : {
             \       'windows' : 'make -f make_mingw32.make',
@@ -221,22 +222,19 @@ let g:neocomplete#force_omni_input_patterns.cpp = '[^.[:digit:] *\t]\%(\.\|->\)\
 " Font
 syntax enable
 if has('gui_running')
-    set guifont=Ricty\ Diminished\ Discord\ Regular:h14 
+    set guifont=Monaco\ Regular:h10
     set t_Co=256
     set colorcolumn=80
     set columns=180
     set lines=45
-    set transparency=5
+    set transparency=0
 
-    set background=dark
+    set background=light
     colorscheme lucius
 else
     set t_Co=256
     set t_ut=
     set colorcolumn=80
-
-    set background=dark
-    colorscheme lucius 
 end
 
 augroup fileTypeIndent

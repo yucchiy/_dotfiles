@@ -17,7 +17,7 @@ export GOPATH=$HOME/.go
 export PATH=$PATH:$GOPATH/bin
 
 # for rust
-source $HOME/.cargo/env
+# source $HOME/.cargo/env
 
 # for nodebrew
-export PATH=$PATH:$HOME/.nodebrew/current/bin 
+export PATH=$HOME/.nodebrew/current/bin:$PATH

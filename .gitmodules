@@ -7,3 +7,6 @@
 [submodule "vim/bundle/omnisharp-vim"]
 	path = vim/bundle/omnisharp-vim
 	url = git@github.com:OmniSharp/omnisharp-vim.git
+[submodule "vim/bundle/neobundle.vim"]
+	path = vim/bundle/neobundle.vim
+	url = https://github.com/Shougo/neobundle.vim.git
