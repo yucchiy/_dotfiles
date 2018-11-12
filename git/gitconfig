@@ -9,5 +9,5 @@
     ui = true
 
 [core]
-    excludesfile = /Users/yucchiy/.gitignore_global
+    excludesfile = /Users/yucchiy/.gitignore
     editor = vim
